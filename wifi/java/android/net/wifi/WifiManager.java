@@ -434,10 +434,12 @@ public class WifiManager {
     public static final int WIFI_MODE_FULL_HIGH_PERF = 3;
 
     /** Anything worse than or equal to this will show 0 bars. */
-    private static final int MIN_RSSI = -100;
+    // private static final int MIN_RSSI = -100;
+    private static final int MIN_RSSI = -90;
 
     /** Anything better than or equal to this will show the max bars. */
-    private static final int MAX_RSSI = -55;
+    // private static final int MAX_RSSI = -55;
+    private static final int MAX_RSSI = -65;
 
     /**
      * Number of RSSI levels used in the framework to initiate
